@@ -39,65 +39,38 @@
     /*========== z index ==========*/
     --z-tooltip: 10;
     --z-fixed: 100;
-  }
-  div{
-    text-align: center;
+}
+.title{
+   font-size: 80px;
+   text-align:center;
+}
+li{
+   text-decoration: none;
+   list-style-type: none;  
+   text-align:left;
+}
+div{
+   text-align:left;
     margin-top: 20px;
-    font-size: 80px;
+    font-size: 30px;
     font-weight: 2000;
     font-family: "Rockwell", monospace;
-  }
-  ul{
-    padding: 0;
-    list-style: none;
-    margin-left: 300px;
-    margin-top: -20px;
-    text-align: left;
-  }
-  ul1{
-    padding: 0;
-    list-style: none;
-    margin-left: 30px;
-    margin-top: -20px;
-    text-align: right;
-    margin-right: -300px;
-  }
- li{
-    padding: 3px;
-    font-family: sans-serif;
- }
- h1{
-    text-size-adjust: 10px;
-    margin-left: 20px;
-    font-weight: 2000;
-    font-family: "Rockwell", monospace;
-    text-align: left;
-    margin-left: 300px;
- }
- h2{
-    text-size-adjust: 10px;
-    margin-left: 20px;
-    font-weight: 2000;
-    font-family: "Rockwell", monospace;
-    text-align: right;
-    margin-right: 300px;
- }
- p{
-    margin-left: 22px;
-    margin-top: -30px;
-    font-style: italic;
- }
- body{
-    margin: var(--header-height) 0 0 0;
+}
+h1{
+   text-align:left;
+   width: auto;
+}
+body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
     line-height: 1.6;
+    text-align:left;
     background-color: #f7e1cd;
       background-repeat: repeat;
       background-color: #f7f0db;
       background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
       margin-top: auto;
       /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  }
+}
