@@ -105,3 +105,22 @@ sr.reveal(`.home__data, .home__img,
             .footer__content`, {
     interval: 200
 })
+let slideIndex = 0;
+const slides = document.querySelectorAll('.slide');
+const numSlides = slides.length;
+
+function showSlide(n) {
+  slides.forEach(slide => slide.classList.remove('active'));
+  slideIndex = (n + numSlides) % numSlides;
+  slides[slideIndex].classList.add('active');
+}
+
+function changeSlide(n) {
+  showSlide(slideIndex + n);
+}
+
+setInterval(() => {
+  changeSlide(1);
+}, 5000);
+
+showSlide(slideIndex);

@@ -1,0 +1,103 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+    --header-height: 3rem;
+  
+    /*========== Colors ==========*/
+    --first-color: #f2bb55;
+    --first-color-alt: #048654;
+    --title-color: #393939;
+    --text-color: #393939;
+    --text-color-light: #A6A6A6;
+    --body-color: #8da3bf;
+    --container-color: #FFFFFF;
+  
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+  
+    /*========== Margenes ==========*/
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+  div{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 2000;
+    font-family: "Rockwell", monospace;
+  }
+  ul{
+    padding: 0;
+    list-style: none;
+    margin-left: 300px;
+    margin-top: -20px;
+    text-align: left;
+  }
+  ul1{
+    padding: 0;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: -20px;
+    text-align: right;
+    margin-right: -300px;
+  }
+ li{
+    padding: 3px;
+    font-family: sans-serif;
+ }
+ h1{
+    text-size-adjust: 10px;
+    margin-left: 20px;
+    font-weight: 2000;
+    font-family: "Rockwell", monospace;
+    text-align: left;
+    margin-left: 300px;
+ }
+ h2{
+    text-size-adjust: 10px;
+    margin-left: 20px;
+    font-weight: 2000;
+    font-family: "Rockwell", monospace;
+    text-align: right;
+    margin-right: 300px;
+ }
+ p{
+    margin-left: 22px;
+    margin-top: -30px;
+    font-style: italic;
+ }
+ body{
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: #f7e1cd;
+      background-repeat: repeat;
+      background-color: #f7f0db;
+      background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+      margin-top: auto;
+      /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
