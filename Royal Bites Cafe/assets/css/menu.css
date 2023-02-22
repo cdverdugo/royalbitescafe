@@ -6,23 +6,29 @@
 .title{
    font-size: 80px;
    text-align:center;
-   font-size: 100px;
+   font-size: 400%;
    color: #f2bb55;
-   margin-top: 100px;
-   margin-left: -8rem;
+   margin-top: 40px;
+   margin-left: -15rem;
    -webkit-text-stroke: 1px black;
+   padding: 10%;
 }
 li{
    text-decoration: none;
    list-style-type: none;  
    text-align: left;
    padding-top: 50px;
+   margin-left: -14rem;
+   padding: top right bottom left;
 }
 .nav_list{
    margin-top: 500px;
+   
 }
 ul{
    margin-top: -3rem;
+   
+   
 }
 
 div{
@@ -31,6 +37,7 @@ div{
     font-size: 40px;
     font-weight: 2000;
     font-family: "Rockwell", monospace;
+    
 }
 h1{
    text-align:left;
@@ -40,14 +47,16 @@ h1{
    margin-top: 5px;
    margin-left: 1rem;
    -webkit-text-stroke: 0.5px black;
+   margin-left: -13rem;
 }
 body{
     font-family: var(--body-font);
-    font-size: 25px;
+    font-size: 20px;
     background-color: var(--body-color);
     color: var(--text-color);
     line-height: 0.8;
     text-align:left;
+    padding: top right bottom left;
     margin-left: 15rem;
     background-color: #f7e1cd;
     background-repeat:repeat;
